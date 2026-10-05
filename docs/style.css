@@ -15,3 +15,21 @@ details { background: var(--card); border:1px solid var(--line); border-radius: 
 summary { font-weight: 600; cursor: pointer; }
 footer { color: var(--ink2); font-size: 14px; margin-top: 56px; border-top:1px solid var(--line); padding-top: 18px; }
 ul { padding-left: 22px; }
+
+/* guides */
+header .g-brand{font:600 38px/1.2 "New York","Iowan Old Style",Georgia,serif}
+header .g-brand a{color:var(--ink);text-decoration:none}
+.crumbs{font-size:14px;color:var(--ink2);margin:-8px 0 18px}
+.guide article h1{font-size:34px;margin-top:0}
+@media (max-width:480px){.guide article h1{font-size:28px}header .g-brand{font-size:30px}header img{width:64px;height:64px}}
+.lead{font-size:20px}
+.g-cta{display:inline-block;background:var(--accent);color:var(--paper);font-weight:600;text-decoration:none;padding:11px 20px;border-radius:999px}
+.g-cta-row{margin:14px 0}
+.g-end{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:6px 22px 8px;margin-top:44px}
+.g-end h2{margin-top:16px}
+.g-list,.g-related ul{list-style:none;padding:0}
+.g-list li,.g-related li{padding:12px 0;border-bottom:1px solid var(--line)}
+.g-list a,.g-related li a{font-weight:600;display:block}
+.g-list span,.g-related li span{display:block;color:var(--ink2);font-size:15px}
+ol.steps li,ul.tips li{margin:8px 0}
+ol.steps{padding-left:24px}
